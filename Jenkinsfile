@@ -1,6 +1,4 @@
 pipeline {
-    agent {label 'master'}
-
     environment {
         GIT_PROJECT_ADDR="https://github.com/ArvZhou/middleware-express.git" //项目的git地址
         IMAGE_NAME="middlemare-express"                    // 镜像名
