@@ -6,10 +6,5 @@ pipeline {
                 sh 'node --version'
             }
         }
-        stage('Run Docker') {
-            steps {
-                sh ./deploy.sh
-            }
-        }
     }
 }
